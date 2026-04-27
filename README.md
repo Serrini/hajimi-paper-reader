@@ -29,10 +29,6 @@ Hajimi Paper Reader 是一个本地优先的论文精读桌面应用，聚焦 PD
 - `critic`：分析创新点、局限性和改进方向
 - `summarizer`：输出完整精读总结
 
-#### 产品界面
-
-![产品界面](docs/demo/paper-reader-pdf-preview.gif)
-
 #### PDF 预览界面
 
 ![PDF 预览界面](docs/demo/paper-reader-pdf-preview.gif)
@@ -148,10 +144,6 @@ Instead of using a single summarization prompt, the app runs a structured multi-
 - `analyzer`: focuses on methods and technical details
 - `critic`: evaluates novelty, limitations, and improvement directions
 - `summarizer`: produces the final reading summary
-
-#### Product UI
-
-![Product UI](docs/demo/paper-reader-pdf-preview.gif)
 
 #### PDF Preview
 
