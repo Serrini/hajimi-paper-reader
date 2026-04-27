@@ -1,0 +1,90 @@
+# ----------------------------------------------------------------------
+# Node.js / React / Electron dependencies and outputs
+# ----------------------------------------------------------------------
+node_modules/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build and dist directories
+build/
+dist/
+release/
+out/
+/.next/
+/.nuxt/
+
+# ----------------------------------------------------------------------
+# Python dependencies, environments and cache
+# ----------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+winvenv/
+backend/winvenv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller Specific
+*.manifest
+*.spec
+
+# ----------------------------------------------------------------------
+# OS and Editor generated files
+# ----------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ----------------------------------------------------------------------
+# Local Configuration and Secrets
+# ----------------------------------------------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+
+# ----------------------------------------------------------------------
+# Project specific (IMEM Studio)
+# ----------------------------------------------------------------------
+session_workspaces/
+tmp/
+backend/.deps-installed
+backend/agent.db
+backend/uploads/
+backend/dist/
+backend/build/
+frontend/build-desktop/
+frontend/build-desktop-2/
+frontend/build-desktop-3/
+frontend/build-desktop-4/
+frontend/write-test.txt
+*.log
+*.tmp
+*.pack
+*.tar
+final_test.log
+.cache/
+
+.macos_venv/

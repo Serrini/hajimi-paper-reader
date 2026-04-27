@@ -1,0 +1,15 @@
+bcrypt
+PyJWT
+openai
+pydantic
+sqlalchemy
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-core>=0.1.0
+langgraph>=0.0.30
+python-dotenv>=1.0.0
+PyMuPDF>=1.23.0
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+sse-starlette>=1.6.0
+python-multipart

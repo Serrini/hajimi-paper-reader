@@ -1,0 +1,18 @@
+{
+  "name": "hajimi-paper-reader-workspace",
+  "version": "1.0.0",
+  "description": "Hajimi Paper Reader desktop build scripts",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node scripts/bootstrap.js",
+    "install:all": "node scripts/bootstrap.js",
+    "setup:backend": "node scripts/bootstrap.js --backend-only",
+    "dev": "npm --prefix electron run dev",
+    "build:frontend": "npm --prefix electron run build:frontend",
+    "build:backend": "node scripts/build-backend.js",
+    "dist": "node scripts/dist.js",
+    "dist:win": "node scripts/dist.js --win",
+    "dist:mac": "node scripts/dist.js --mac",
+    "dist:linux": "node scripts/dist.js --linux"
+  }
+}
