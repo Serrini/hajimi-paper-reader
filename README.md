@@ -2,7 +2,7 @@
 
 [简体中文](#简体中文) | [English](#english)
 
-![Hajimi Paper Reader Product UI](docs/demo/paper-reader-pdf-preview.gif)
+![Hajimi Paper Reader Product UI](docs/demo/product-preview.png)
 
 ## 简体中文
 
